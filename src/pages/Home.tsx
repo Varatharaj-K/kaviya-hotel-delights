@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ChefHat, Users, Calendar, Utensils, Package } from 'lucide-react';
+import { ChefHat, Users, Calendar, Utensils, Package, MapPin } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
 import TestimonialCard from '@/components/TestimonialCard';
 
@@ -99,9 +99,19 @@ const Home: React.FC = () => {
                 on quality or taste. Our experienced chefs craft each dish with precision and care, 
                 ensuring that your guests or employees enjoy a memorable culinary experience.
               </p>
-              <Link to="/about" className="btn btn-primary">
-                Learn More About Us
-              </Link>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Link to="/about" className="btn btn-primary">
+                  Learn More About Us
+                </Link>
+                <a 
+                  href="https://maps.app.goo.gl/zz3Fn9BK3GBy31ZT8" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center text-primary hover:underline"
+                >
+                  <MapPin size={18} className="mr-1" /> Find Us on Map
+                </a>
+              </div>
             </div>
           </div>
         </div>
