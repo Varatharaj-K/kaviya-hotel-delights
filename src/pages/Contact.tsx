@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
         
         <div className="h-[400px] w-full">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.6647707914066!2d77.82765911482088!3d12.8649342909684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae766c523291c7%3A0xc5c47b29990c41a5!2sGovinda%20Agraharam%2C%20Hosur%2C%20Tamil%20Nadu%20635109!5e0!3m2!1sen!2sin!4v1650472635295!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.664770791406!2d77.82766601078218!3d12.864934208942968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae766c523291c7%3A0xc5c47b29990c41a5!2sGovinda%20Agraharam%2C%20Hosur%2C%20Tamil%20Nadu%20635109!5e0!3m2!1sen!2sin!4v1718076622422!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
