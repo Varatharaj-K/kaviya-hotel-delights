@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ChefHat, Users, Calendar, Restaurant, Package, Clock, MapPin } from 'lucide-react';
+import { ChefHat, Users, Calendar, Utensils, Package, Clock, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface ServiceDetailProps {
@@ -48,7 +48,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ icon, title, description,
 const Services: React.FC = () => {
   const services = [
     {
-      icon: <Restaurant size={32} />,
+      icon: <Utensils size={32} />,
       title: "Corporate Catering",
       description: "We provide reliable daily meal delivery services for companies of all sizes. Our corporate catering ensures your employees enjoy nutritious and delicious meals every day.",
       features: [

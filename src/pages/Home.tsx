@@ -1,14 +1,14 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ChefHat, Users, Calendar, Restaurant, Package } from 'lucide-react';
+import { ChefHat, Users, Calendar, Utensils, Package } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
 import TestimonialCard from '@/components/TestimonialCard';
 
 const Home: React.FC = () => {
   const services = [
     {
-      icon: <Restaurant size={32} />,
+      icon: <Utensils size={32} />,
       title: "Corporate Catering",
       description: "Daily meal delivery services for companies with fresh, high-quality food prepared in bulk quantities."
     },
