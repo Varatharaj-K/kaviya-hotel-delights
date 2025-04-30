@@ -14,10 +14,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 14 91% 49%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 79% 46%;
+    --secondary: 217 91% 60%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
@@ -46,10 +46,10 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 14 91% 49%;
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 79% 46%;
+    --secondary: 217 91% 60%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -109,7 +109,7 @@
 }
 
 .hero-gradient {
-  background: linear-gradient(135deg, rgba(230, 74, 25, 0.9), rgba(25, 118, 210, 0.8)), 
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.9), rgba(59, 130, 246, 0.8)), 
               url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-position: center;
