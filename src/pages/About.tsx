@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Star, ChefHat, Users } from 'lucide-react';
@@ -41,11 +40,11 @@ const About: React.FC = () => {
     {
       name: "Chitra A",
       position: "Co-Founder & Operations Manager",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80"
     },
     {
-      name: "Suresh Reddy",
-      position: "Client Relations",
+      name: "Varatharaj K",
+      position: "CEO",
       image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
     },
   ];
