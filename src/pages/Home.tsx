@@ -29,27 +29,6 @@ const Home: React.FC = () => {
     },
   ];
 
-  const testimonials = [
-    {
-      name: "Priya Sharma",
-      role: "HR Manager, Tech Solutions",
-      quote: "Kaviya Hotel has been our corporate lunch provider for over 2 years. Their food quality and service consistency is exceptional!",
-      rating: 5
-    },
-    {
-      name: "Rajesh Kumar",
-      role: "Event Organizer",
-      quote: "We hired Kaviya for our annual corporate event. The variety of dishes and taste was loved by all our 300+ attendees.",
-      rating: 5
-    },
-    {
-      name: "Ananya Patel",
-      role: "Wedding Planner",
-      quote: "The team at Kaviya Hotel delivered beyond our expectations for my client's wedding reception. Highly recommended!",
-      rating: 4
-    }
-  ];
-
   const partners = [
     "Sequel Logistics",
     "Titan India Limited",
@@ -275,30 +254,6 @@ const Home: React.FC = () => {
             <Link to="/contact" className="btn bg-white text-primary hover:bg-gray-100 font-medium">
               Contact Us Now
             </Link>
-          </div>
-        </div>
-      </section>
-      
-      {/* Testimonials */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold mb-4">What Our Clients Say</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              We take pride in providing exceptional service to our clients. Here's what they have to say about us.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard 
-                key={index}
-                name={testimonial.name}
-                role={testimonial.role}
-                quote={testimonial.quote}
-                rating={testimonial.rating}
-              />
-            ))}
           </div>
         </div>
       </section>

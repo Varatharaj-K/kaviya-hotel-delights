@@ -34,13 +34,13 @@ const About: React.FC = () => {
 
   const team = [
     {
-      name: "Ramesh Kumar",
+      name: "Annamali K",
       position: "Founder & Head Chef",
       image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
     },
     {
-      name: "Lakshmi Devi",
-      position: "Operations Manager",
+      name: "Chitra A",
+      position: "Co-Founder & Operations Manager",
       image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80"
     },
     {
@@ -83,8 +83,9 @@ const About: React.FC = () => {
                 into a trusted name in corporate catering and event food services.
               </p>
               <p className="text-gray-600 mb-4">
-                Our founder, Mr. Ramesh Kumar, brought his expertise in traditional South Indian cuisine and 
+                Our founder, Mr. Annamali K, brought his expertise in traditional South Indian cuisine and 
                 combined it with modern cooking techniques to create a unique culinary experience for our clients.
+                Together with co-founder Mrs. Chitra A, they built a strong foundation for the business.
               </p>
               <p className="text-gray-600">
                 Over the years, we have expanded our services to include corporate daily meal delivery, 
