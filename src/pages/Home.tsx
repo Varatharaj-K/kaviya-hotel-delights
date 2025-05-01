@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { ChefHat, Users, Calendar, Utensils, Package, MapPin } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
 import TestimonialCard from '@/components/TestimonialCard';
+import PartnerLogo from '@/components/PartnerLogo';
 
 const Home: React.FC = () => {
   const services = [
@@ -30,10 +31,22 @@ const Home: React.FC = () => {
   ];
 
   const partners = [
-    "Sequel Logistics",
-    "Titan India Limited",
-    "TVS",
-    "NR Industries"
+    {
+      name: "Sequel Logistics",
+      logo: "/lovable-uploads/c0bdd779-b0ea-4251-a330-f0836412ba00.png"
+    },
+    {
+      name: "Titan India Limited",
+      logo: "/lovable-uploads/08c07a41-e578-4dfe-9aef-68991158ca97.png"
+    },
+    {
+      name: "TVS",
+      logo: "/lovable-uploads/566a9980-6543-4c6d-8883-7c8a41c28691.png"
+    },
+    {
+      name: "NR Industries",
+      logo: "/lovable-uploads/543cb18e-a138-43a6-bf28-4a07b4de763d.png"
+    }
   ];
 
   return (
@@ -233,11 +246,13 @@ const Home: React.FC = () => {
             </p>
           </div>
           
-          <div className="flex flex-wrap justify-center gap-8 md:gap-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
             {partners.map((partner, index) => (
-              <div key={index} className="bg-white shadow-md rounded-lg px-8 py-6 min-w-[200px] text-center">
-                <p className="font-medium text-lg text-gray-800">{partner}</p>
-              </div>
+              <PartnerLogo 
+                key={index}
+                src={partner.logo}
+                alt={partner.name}
+              />
             ))}
           </div>
         </div>
