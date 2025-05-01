@@ -114,3 +114,10 @@
   background-size: cover;
   background-position: center;
 }
+
+.hero-gradient-new {
+  background: linear-gradient(135deg, rgba(29, 151, 108, 0.9), rgba(147, 196, 125, 0.8)), 
+              url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+}

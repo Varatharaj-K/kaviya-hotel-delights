@@ -60,7 +60,7 @@ const Home: React.FC = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="hero-gradient min-h-screen flex items-center text-white">
+      <section className="hero-gradient-new min-h-screen flex items-center text-white">
         <div className="container py-20 md:py-28">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="order-2 md:order-1">
