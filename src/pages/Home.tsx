@@ -151,10 +151,10 @@ const Home: React.FC = () => {
           </div>
           
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl font-serif mb-4">Annamali K</h3>
+            <h3 className="text-2xl font-serif mb-4">Annamalai K</h3>
             <p className="text-gray-700 mb-6">
               With a vision to provide premium catering services that blend traditional flavors with modern culinary techniques, 
-              Annamali K established Kaviya Hotel over a decade ago. His dedication to quality and authentic taste has made 
+              Annamalai K established Kaviya Hotel over a decade ago. His dedication to quality and authentic taste has made 
               Kaviya Hotel one of the most trusted names in corporate and event catering services in Hosur.
             </p>
           </div>
